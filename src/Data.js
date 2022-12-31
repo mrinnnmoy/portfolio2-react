@@ -1,7 +1,6 @@
 import { FaGithub, FaTwitter, FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaLinkedin } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript, SiHashnode } from "react-icons/si";
-import portfolio from "./assets/mrinmoy.jpg"
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
 import work3 from "./assets/work3.png";

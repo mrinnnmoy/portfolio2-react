@@ -46,6 +46,21 @@ img {
   position: relative;
 }
 
+/* Custom Scroll Bar */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  background: #8c12f0;
+  border-radius: 4px;
+}
+
 @media screen and (max-width: 500px) {
   .container {
     padding: 7rem 1rem 0 1rem;
