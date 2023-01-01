@@ -15,6 +15,17 @@ const Home = () => {
         }
     };
 
+    const moveProfile = {
+        animation: {
+            x: [0, -15],
+            transition: {
+                yoyo: Infinity,
+                duration: 2,
+                delay: 1
+            }
+        }
+    };
+
     return (
         <motion.div className="container" id="home"
             initial={{ y: -15, opacity: 0 }}
@@ -38,9 +49,21 @@ const Home = () => {
                     variants={moveVariants}
                     animate="animation"
                 >Connect with me.</motion.a>
-                <div className="writer">Technical Writer</div>
-                <div className="web">Web Developer</div>
-                <div className="blockchain">BlockChain</div>
+                <motion.div
+                    variants={moveProfile}
+                    animate="animation"
+                    className="writer">Technical Writer</motion.div>
+                <motion.div 
+                    variants={moveProfile}
+                    animate="animation"
+                    className="web">Web Developer</motion.div>
+                <motion.div 
+                    variants={moveProfile}
+                    animate="animation"
+                    className="blockchain">BlockChain</motion.div>
+            </div>
+            <div className="mouse">
+                <div className="mouse-wheel"></div>
             </div>
         </motion.div>
     )

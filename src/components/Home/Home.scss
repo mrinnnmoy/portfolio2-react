@@ -12,6 +12,13 @@
       height: 100%;
       border-radius: 50%;
       object-fit: cover;
+      animation: rotateHue 2s alternate infinite;
+    }
+
+    @keyframes rotateHue {
+      to {
+        filter: hue-rotate(1turn);
+      }
     }
   }
   .profile_text {
@@ -86,6 +93,36 @@
     .blockchain {
       bottom: 2rem;
       left: 0;
+    }
+  }
+}
+
+.mouse {
+  display: inline-flex;
+  width: 25px;
+  height: 50px;
+  margin-top: 1.25rem;
+  border: 2px solid #fff;
+  border-radius: 20px;
+
+  .mouse-wheel {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: auto;
+    animation: moveWheel 1.25s linear infinite;
+  }
+
+  @keyframes moveWheel {
+    0% {
+      opacity: 0;
+      translate: 0 16px;
+    }
+    100% {
+      opacity: 1;
+      translate: 0 -16px;
     }
   }
 }
