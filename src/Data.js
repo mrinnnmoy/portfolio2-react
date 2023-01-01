@@ -1,6 +1,6 @@
-import { FaGithub, FaTwitter, FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaLinkedin, FaGitAlt } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
-import { SiTypescript, SiHashnode } from "react-icons/si";
+import { SiTailwindcss, SiHashnode, SiExpress, SiMongodb } from "react-icons/si";
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
 import work3 from "./assets/work3.png";
@@ -38,48 +38,48 @@ export const bios = [
   }
 ]
 
-export const icons = [<FaHtml5 />, <FaCss3 />, <DiJavascript />, <SiTypescript />, <FaReact />, <FaNodeJs />, <FaSass />, <FaFigma />]
+export const icons = [<FaHtml5 />, <FaCss3 />, <DiJavascript />, <FaReact />, <SiTailwindcss />, <FaSass />, <FaNodeJs />, <SiExpress />, <SiMongodb />, <FaGitAlt />]
 
 export const experiences = [
   {
     id: 1,
-    year: "2022",
-    position: "Senior Web Developer",
-    company: "shop.com.mm"
+    year: "Aug'22",
+    position: "Freelance Technical Writer",
+    company: "mrinnnmoy.hashnode.dev"
   },
   {
     id: 2,
-    year: "2021",
-    position: "Junior Web Developer",
-    company: "shop.com.mm"
+    year: "June'22",
+    position: "Smart India Hackathon",
+    company: ""
   },
   {
     id: 3,
-    year: "2019",
-    position: "Intern Web Dveloper",
-    company: "shop.com.mm"
-  }
+    year: "Nov'21",
+    position: "Freelance Web Developer",
+    company: "github.com/mrinnnmoy"
+  },
 ]
 export const finishes = [
   {
     id: 1,
-    number: '6+',
+    number: '1+',
     itemName: "Years Of Experience"
   },
   {
     id: 2,
-    number: "150+",
-    itemName: "Satisfied Customers"
+    number: "45+",
+    itemName: "Projects Build"
   },
   {
     id: 3,
-    number: "669+",
-    itemName: "Designed Items"
+    number: "14+",
+    itemName: "Articles Written"
   },
   {
     id: 4,
-    number: "117+",
-    itemName: "Clients Served"
+    number: "3+",
+    itemName: "Hackathons Participated"
   }
 ]
 export const workImages = [
