@@ -12,14 +12,15 @@
       height: 100%;
       border-radius: 50%;
       object-fit: cover;
-      animation: rotateHue 2s alternate infinite;
+      // animation: rotateHue 2s alternate infinite;
+      box-shadow: 0 0 20px #8c12f0;
     }
 
-    @keyframes rotateHue {
-      to {
-        filter: hue-rotate(1turn);
-      }
-    }
+    // @keyframes rotateHue {
+    //   to {
+    //     filter: hue-rotate(1turn);
+    //   }
+    // }
   }
   .profile_text {
     margin-top: 1rem;
