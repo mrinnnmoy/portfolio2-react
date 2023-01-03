@@ -5,7 +5,7 @@ import About from './components/About/About';
 // import Contact from './components/Contact/Contact';
 // import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
-// import Portfolio from './components/Portfolio/Portfolio';
+import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
 
 const App = () => {
@@ -15,8 +15,8 @@ const App = () => {
       <Home />
       <About />
       <Skills />
-    {/* 
       <Portfolio />
+    {/* 
       <Contact />
       <Footer /> */}
     </div>
