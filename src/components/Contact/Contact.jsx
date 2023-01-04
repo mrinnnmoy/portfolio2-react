@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Contact.scss";
 import { contacts } from '../../Data';
-import { socialIcons } from '../../Data';
 import { motion } from 'framer-motion';
 
 const Contact = () => {
@@ -37,15 +36,6 @@ const Contact = () => {
                             </div>
                         )
                     })}
-                    <div className="social_icons">
-                        {socialIcons.map((socialIcon, index) => {
-                            return (
-                                <div key={index} >
-                                    {socialIcon}
-                                </div>
-                            )
-                        })}
-                    </div>
                 </motion.div>
                 <motion.div
                     initial={{ x: 0, opacity: 0 }}

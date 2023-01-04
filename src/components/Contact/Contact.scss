@@ -22,7 +22,7 @@
 
     .contact_text {
       font-size: 0.85rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1.35rem;
     }
     .contact_left {
       display: flex;
@@ -41,23 +41,6 @@
       }
       p {
         font-size: 0.85rem;
-      }
-    }
-    .social_icons {
-      display: flex;
-      margin-top: 1rem;
-
-      div {
-        margin-right: 1rem;
-        cursor: pointer;
-
-        &:hover {
-          opacity: 0.8;
-        }
-
-        svg {
-          font-size: 1.3rem;
-        }
       }
     }
   }
