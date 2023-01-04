@@ -2,7 +2,7 @@ import React from 'react'
 import "./App.css"
 import Navbar from './components/Navbar/Navbar'
 import About from './components/About/About';
-// import Contact from './components/Contact/Contact';
+import Contact from './components/Contact/Contact';
 // import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -16,8 +16,8 @@ const App = () => {
       <About />
       <Skills />
       <Portfolio />
-    {/* 
       <Contact />
+    {/* 
       <Footer /> */}
     </div>
   )
