@@ -22,6 +22,25 @@ const Navbar = () => {
         }
     };
 
+    const socialLinks = [
+        {
+            id: 1,
+            link: ""
+        },
+        {
+            id: 2,
+            link: ""
+        },
+        {
+            id: 3,
+            link: ""
+        },
+        {
+            id: 4,
+            link: ""
+        },
+    ];
+
     const navLinkVariants = {
         hidden: {
             display: "none",

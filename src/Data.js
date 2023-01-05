@@ -32,30 +32,22 @@ import work6 from "./assets/work6.png";
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
 
 export const socialIcons = [
-  // {
-  //   id: 1,
-  //   icon: <FaGithub />,
-  //   view: "",
-  // },
-  // {
-  //   id: 2,
-  //   icon: <FaLinkedin />,
-  //   view: "",
-  // },
-  // {
-  //   id: 3,
-  //   icon: <FaTwitter />,
-  //   view: "",
-  // },
-  // {
-  //   id: 4,
-  //   icon: <SiHashnode />,
-  //   view: "",
-  // },
-  <FaGithub />,
-  <FaLinkedin />,
-  <FaTwitter />,
-  <SiHashnode />
+  <a href="https://github.com/mrinnnmoy/" target="_blank" rel="noreferrer">
+    <FaGithub />
+  </a>,
+  <a
+    href="https://www.linkedin.com/in/mrinnnmoy/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <FaLinkedin />
+  </a>,
+  <a href="http://twitter.com/mrinnnmoy" target="_blank" rel="noreferrer">
+    <FaTwitter />
+  </a>,
+  <a href="https://mrinnnmoy.hashnode.dev/" target="_blank" rel="noreferrer">
+    <SiHashnode />
+  </a>,
 ];
 
 export const bios = [
