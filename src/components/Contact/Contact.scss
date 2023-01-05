@@ -87,10 +87,17 @@
       font-size: 0.85rem;
       width: 4.2rem;
     }
-    a {
+    button {
       text-decoration: none;
+      border: none;
+      outline: none;
+      background-color: #8c12f0;
       color: #fff;
+      font-weight: bold;
       text-transform: capitalize;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
