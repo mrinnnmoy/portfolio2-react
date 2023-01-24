@@ -7,10 +7,12 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const App = () => {
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
       <Home />
       <About />
